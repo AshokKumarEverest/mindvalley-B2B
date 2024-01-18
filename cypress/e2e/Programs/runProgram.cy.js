@@ -3,7 +3,7 @@ import ProgramsPage from "/cypress/support/pages/Programs/programsPage"
 // import '@shelex/cypress-allure-plugin';
 // require('@shelex/cypress-allure-plugin');
 
-describe.skip("Mind Valley Project POC", () => {
+describe("Mind Valley Project POC", () => {
 
     beforeEach(() => {
         LoginPage.loginIntoApp();
