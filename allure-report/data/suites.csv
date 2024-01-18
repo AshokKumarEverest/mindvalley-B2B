@@ -1,2 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Jan 18 11:10:30 IST 2024","Thu Jan 18 11:11:03 IST 2024","33114","","Mind Valley Project POC","","Mind Valley Project POC","login into the app and validate username","login into the app and validate username",""
+"passed","Thu Jan 18 15:47:31 IST 2024","Thu Jan 18 15:47:55 IST 2024","24329","","Mind Valley Project POC","","Mind Valley Project POC","login into the app and validate username","login into the app and validate username",""
+"passed","Thu Jan 18 15:47:58 IST 2024","Thu Jan 18 15:48:50 IST 2024","51915","","Mind Valley Project POC","","Mind Valley Project POC","should navigate to programs and click on program `5 Days To A Powerful Memory` and play lesson 1 ","should navigate to programs and click on program `5 Days To A Powerful Memory` and play lesson 1 ",""
+"passed","Thu Jan 18 15:48:50 IST 2024","Thu Jan 18 15:49:18 IST 2024","28407","","Mind Valley Project POC","","Mind Valley Project POC","Should display the duration of the video","Should display the duration of the video",""
