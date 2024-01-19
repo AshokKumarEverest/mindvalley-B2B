@@ -1,4 +1,3 @@
-/// <reference types="@shelex/cypress-allure-plugin" />
 
 //Programs page 
 class ProgramsPage {
