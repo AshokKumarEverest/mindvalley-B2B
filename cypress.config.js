@@ -12,10 +12,13 @@ module.exports = defineConfig({
   // allureAttachRequests: true,
   // // allureClearSkippedTests: false,
   chromeWebSecurity: false,
-  projectId:g46zig,
+  projectId:"g46zig",
   
   e2e: {
     baseUrl : process.env.BASEURL,
+    loginUrl: process.env.LOGINURL,
+    pageLoadTimeout:120000,
+    
     setupNodeEvents(on, config) {
       // implement node event listeners here
       allureWriter(on, config);

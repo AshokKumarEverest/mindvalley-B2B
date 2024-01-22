@@ -1,7 +1,7 @@
 //Login page 
 class LoginPage{
     loginIntoApp(){
-        cy.visit("/");
+        cy.visit(Cypress.env('loginUrl'));
         cy.get('#login-email').type(Cypress.env('username'));
         cy.get('#login-password').type(Cypress.env('password'))
         cy.get('#btn-login').click();
