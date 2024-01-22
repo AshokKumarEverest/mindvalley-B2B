@@ -1,11 +1,13 @@
 import LoginPage from "/cypress/support/pages/Login/loginPage"
 import ProgramsPage from "/cypress/support/pages/Programs/programsPage"
+import { invokeApplication } from "../../support/pages/basePage"
 // import '@shelex/cypress-allure-plugin';
 // require('@shelex/cypress-allure-plugin');
 
 describe("Mind Valley Project POC", () => {
 
     beforeEach(() => {
+        // invokeApplication();
         LoginPage.loginIntoApp();
     });
 
