@@ -1,5 +1,5 @@
-const { default: basePage } = require("../../support/pages/basePage")
-const { default: homePage } = require("../../support/pages/homePage")
+import { default as basePage } from "../../support/pages/basePage"
+import { default as homePage } from "../../support/pages/homePage"
 
 describe("Verify Application home page",()=>{
 

@@ -1,12 +1,12 @@
-const basePage  = require("../../support/pages/basePage")
-const  navCategories  = require("../../support/pages/navigation/navCategories")
+import { invokeApplication } from "../../support/pages/basePage"
+import { navigateToMindPrograms } from "../../support/pages/navigation/navCategories"
 
 describe("validate mind programs",()=>{
 
     it('validate mind programs',()=>{
 
-        basePage.invokeApplication()
-        navCategories.navigateToMindPrograms()
+        invokeApplication()
+        navigateToMindPrograms()
 
         // navigate to super brain program
 
