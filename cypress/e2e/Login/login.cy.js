@@ -1,5 +1,4 @@
 import LoginPage from "../../support/pages/Login/loginPage"
-import { invokeApplication } from "../../support/pages/basePage"
 
 describe("Mind Valley Project POC", () => {
 
