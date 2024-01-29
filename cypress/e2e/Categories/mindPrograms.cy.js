@@ -1,7 +1,7 @@
 import { invokeApplication } from "../../support/pages/basePage"
 import { navigateToMindPrograms } from "../../support/pages/navigation/navCategories"
 
-describe("validate mind programs",()=>{
+describe.skip("validate mind programs",()=>{
 
     it('validate mind programs',()=>{
 

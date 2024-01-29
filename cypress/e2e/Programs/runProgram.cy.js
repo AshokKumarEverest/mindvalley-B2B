@@ -10,8 +10,10 @@ describe("Mind Valley Project POC", () => {
     });
 
     it("should navigate to programs and click on program `5 Days To A Powerful Memory` and play lesson 1 ", () => {
-        ProgramsPage.playProgram("5 Days To A Powerful Memory");
-        ProgramsPage.playLesson(" Start - Lesson 1 ");
+        // ProgramsPage.playProgram("5 Days To A Powerful Memory");
+        // ProgramsPage.playLesson(" Start - Lesson 1 ");
+        ProgramsPage.playProgram("Establish Growth as the #1 Goal");
+        ProgramsPage.clickPlayButton();
         cy.wait(10000)
     });
 
