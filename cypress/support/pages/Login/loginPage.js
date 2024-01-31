@@ -1,8 +1,10 @@
+import BasePage from "../basePage";
+
 //Login page 
-class LoginPage{
+class LoginPage extends BasePage{
     loginIntoApp(){
         // cy.visit(Cypress.env('loginURL'));
-        cy.visit("https://home.mindvalley.com/");
+        cy.visit(Cypress.env('loginUrl'));
         cy.get('#login-email').type(Cypress.env('username'));
         cy.get('#login-password').type(Cypress.env('password'))
         cy.get('#btn-login').click();

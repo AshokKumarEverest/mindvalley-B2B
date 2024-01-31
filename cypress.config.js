@@ -15,10 +15,8 @@ module.exports = defineConfig({
   projectId:"g46zig",
   
   e2e: {
+    pageLoadTimeout:600000,
     baseUrl : process.env.BASEURL,
-    loginUrl: process.env.LOGINURL,
-    pageLoadTimeout:120000,
-    
     setupNodeEvents(on, config) {
       // implement node event listeners here
       allureWriter(on, config);
@@ -27,7 +25,9 @@ module.exports = defineConfig({
   },
   env:{
     username: process.env.USERNAME,
-    password: process.env.PASSWORD
+    password: process.env.PASSWORD,
+    
+    loginUrl: process.env.LOGINURL,
   }
 });
 

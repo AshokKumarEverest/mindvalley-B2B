@@ -1,12 +1,12 @@
-import { invokeApplication } from "../../support/pages/basePage"
-import { navigateToMindPrograms } from "../../support/pages/navigation/navCategories"
+import loginPage from "../../support/pages/Login/loginPage"
+import navCategories from "../../support/pages/navigation/navCategories"
 
-describe.skip("validate mind programs",()=>{
+describe("validate mind programs",()=>{
 
     it('validate mind programs',()=>{
 
-        invokeApplication()
-        navigateToMindPrograms()
+        loginPage.invokeApplication()
+        navCategories.navigateToMindPrograms()
 
         // navigate to super brain program
 

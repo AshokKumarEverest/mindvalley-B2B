@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Jan 29 11:03:26 IST 2024","Mon Jan 29 11:04:01 IST 2024","34922","","Mind Valley Project POC","","Mind Valley Project POC","Should display the duration of the video","Should display the duration of the video",""
-"unknown","Mon Jan 29 11:01:56 IST 2024","Thu Jan 01 05:30:00 IST 1970","-1706506316274","","validate mind programs","","validate mind programs","validate mind programs","validate mind programs",""
-"passed","Mon Jan 29 11:02:41 IST 2024","Mon Jan 29 11:03:26 IST 2024","45319","","Mind Valley Project POC","","Mind Valley Project POC","should navigate to programs and click on program `5 Days To A Powerful Memory` and play lesson 1 ","should navigate to programs and click on program `5 Days To A Powerful Memory` and play lesson 1 ",""
-"passed","Mon Jan 29 11:02:21 IST 2024","Mon Jan 29 11:02:38 IST 2024","17541","","Profile Page","","Profile Page","login into the app validate name in profile page","login into the app validate name in profile page",""
-"unknown","Mon Jan 29 11:01:58 IST 2024","Thu Jan 01 05:30:00 IST 1970","-1706506318475","","Verify Application home page","","Verify Application home page","Verify Homepage nav menu","Verify Homepage nav menu",""
-"passed","Mon Jan 29 11:02:01 IST 2024","Mon Jan 29 11:02:18 IST 2024","17474","","Mind Valley Project POC","","Mind Valley Project POC","login into the app and validate username","login into the app and validate username",""

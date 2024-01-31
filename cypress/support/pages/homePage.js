@@ -1,4 +1,6 @@
-class HomePage {
+import BasePage from "./basePage"
+
+class HomePage extends BasePage{
 
     verifyNavMenu(){
         cy.contains("Today").should('be.visible')
